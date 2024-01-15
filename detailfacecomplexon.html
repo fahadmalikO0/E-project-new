@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@1,6..96&family=Lobster&family=Oswald&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <!-- font-family: 'Bodoni Moda', serif;
+        font-family: 'Lobster', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Roboto Slab', serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
+    <!-- font-family: 'Outfit', sans-serif; -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>details</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(254, 246, 246);
+        }
+        .product-small-img img{
+            height: 60px;
+            margin: 4px ;
+            /* margin-left: 120px; */
+            cursor: pointer;
+            display: inline-block;
+            opacity: .6;
+        }
+      .imgstyle{
+        border: 1px solid black;
+      }
+      .c1{
+        border: none;
+      }
+      .txt{
+                margin-top: 150px;
+            }   
+            .content{
+                float: right;
+                margin-left: 50% !important;
+                margin-top: 10%px;
+                position: relative;
+            }
+            .accordion{
+                margin-top: 90px;
+                margin-right: 90px;
+            }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-warning fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-dark" style="font-family: 'Lobster', sans-serif;" href="index.html"><b>One Noble</b></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#hide&seek">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="hide&seek">
+                <ul class="navbar-nav ms-auto text-dark">
+                    <div class="dropdown">
+                        <button class="btn bt1-primary dropdown-toggle" data-bs-toggle="dropdown">CATEGORIES</button>
+                        <ul class="dropdown-menu">
+                            <li><a href="lappo.html" class="dropdown-item">LIPSTICKS</a></li>
+                            <li><a href="Categories.html" class="dropdown-item">SKIN PRODUCTS</a></li>
+                            <li><a href="lianer.html" class="dropdown-item">EYE LINEAR</a></li>
+                            <li><a href="facial.html" class="dropdown-item">WHITENING FACIAL</a></li>
+                        </ul>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="treanding1.html">TRENDING NOW</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="">COMBOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="">HELP</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <br>
+    <div class="container mt-5">
+        <div class="row" >
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
+                <div class="card c1">
+                    <img id="imgbox"  src="./images/face complexion cream/1.webp" class="imgstyle"  alt="">
+                    
+                    <div class="card-body">
+                        <img src="./images/face complexion cream/1.webp" class="imgstyle" style="height: 50px;" onclick="myfunction(this)" alt="">
+                        <img src="./images/face complexion cream/2.webp " class="imgstyle" style="height: 50px;" onclick="myfunction(this)" alt="">
+                        <img src="./images/face complexion cream/3.webp "  class="imgstyle" style="height: 50px;" onclick="myfunction(this)" alt="">
+                        <img src="./images/face complexion cream/4.webp" class="imgstyle" style="height: 50px;" onclick="myfunction(this)" alt="">
+                        <img src="./images/face base set/5.webp" class="imgstyle" style="height: 50px;" onclick="myfunction(this)" alt="">
+                        <img src="./images/face base set/6.webp" class="imgstyle" style="height: 50px;" onclick="myfunction(this)" alt="">
+                    </div> 
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="txt">
+                    <h4>LAKEME CC COMPLEXION CREAM</h4>
+                    <P> RS.2,200.36</P>
+                    <p>Free shipping on order over 1000 RS</p>
+                    <button class="btn btn-outline-danger">♡ ADD TO WISH LIST ♡ </button><br>
+                    <div class="rate">
+                        <!-- <p><b> RATE US</b></p> -->
+                       <span> <b>Rate us</b></span><br>
+                        <input type="radio" name="rate" id="star5" value="5">
+                        <label for="star5"></label>
+                        <input type="radio" name="rate" id="star4" value="5">
+                        <label for="star4"></label>
+                        <input type="radio" name="rate" id="star3" value="5">
+                        <label for="star3"></label>
+                        <input type="radio" name="rate" id="star2" value="5">
+                        <label for="star2"></label>
+                        <input type="radio" name="rate" id="star1" value="5">
+                        <label for="star1"></label>
+                    </div>
+                </div>
+                <div class="accordion" id="accordionexm">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headigone">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseone"> 
+                                DETAILS
+                            </button>
+                        </h2>
+                        <div id="collapseone" class="accordion-collapse collapse show" style="font-family: 'EB Garamond', serif;">
+                            <div class="accordion-body" >
+                                <p>
+                                    Flaunt flawless skin with the Youth Infinity Skin Firming Night Creme from Lakme. Formulated with Insta-Collagen Boosters, this anti-ageing cream tightens your skin elasticity and the luminizing pearls give you a brighter look instantly. The cream works on your skin while you sleep to give you a rejuvenated look in the morning. Dermatologically tested, this night creme is non-comedogenic and is recommended by salon experts. Perfect for all skin types, this cream gives you soft, supple and glowing skin with regular use, and this 50gm pack is convenient to carry even when your travel! Add  Lakme Youth Infinity Skin Firming Night Creme to your precious skin products, right away! Repairs and regenerates your skin through the night. For best results, use the product on an everyday basis. In the unlikely event of skin irritation, stop using and consult a doctor immediately. Avoid contact with eyes. Wash your eyes thoroughly with clean water in case of contact. Dot across your face and neck. Gently massage in an upward and outward spiral motion until it's absorbed. To get the best results, use the complete Lakme Youth Infinity range, Follow this simple regime every day for 
+                                    a sculpted 20€™s look. Start with the skin firming serum that enhances your skin€™s elasticity.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headigone">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapsetwo"> 
+                                INFORMATION
+                            </button>
+                        </h2>
+                        <div id="collapsetwo" class="accordion-collapse collapse show" style="font-family: 'EB Garamond', serif;">
+                            <div class="accordion-body" >
+                                <p>MRP inclusive of all taxes on all products
+                                    Net Quantity: 50 g
+                                    Commodity: Night Creme
+                                    Company Name : Aero Pharma
+                                    Company Address : Preeti Indl. Estate, Survey no.127/1. Amli, Silvasa 396230. Dadra and Nagar Haveli
+                                    Country of Origin : India
+                                    Expiry Date: July, 2025 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headigone">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapsethree"> 
+                                HOW TO USE
+                            </button>
+                        </h2>
+                        <div id="collapsethree" class="accordion-collapse collapse show" style="font-family: 'EB Garamond', serif;">
+                            <div class="accordion-body" >
+                                <p>Step 1: Lightly scoop out the crème on to your palm.
+                                    Step 2: Dot your forehead, cheeks, nose and chin.
+                                    Step 3: Gently massage the crème with your fingers in an upward and outward direction in a spiral motion.
+                                    Step 4: Make sure to cover every area of your face.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fas fa-cloud"></i>
+                        <i class="fas fa-facebook"></i>
+                        <i class="fas fa-dragon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function myfunction(smallImg) {
+            var fullImg = document.getElementById("imgbox");
+            fullImg.src = smallImg.src;
+        }
+
+        src = "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity = "sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin = "anonymous"
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
